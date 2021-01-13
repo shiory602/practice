@@ -1,0 +1,34 @@
+body {
+	padding: 64px;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+
+	animation-name: move;
+	animation-duration: 2s;
+}
+
+@keyframes move {
+	0% {
+		transform: none;
+	}
+80% {
+	transform: translateX(200px) rotate(350deg)
+}
+100% {
+	transform: translateX(300px) rotate(360deg)
+}
+}
+
+
+
+.highlight {
+	background-color: yellow;
+}
+
+.line {
+	border: 1px solid red;
+}

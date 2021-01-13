@@ -1,0 +1,27 @@
+/* ボタン */
+.btn { ... }
+.btn--full {
+	width: 100%;
+}
+
+/* フォーム */
+.form { ... }
+.form__button {
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px; /* フォームにおけるボタンの幅 */
+}
+
+/* コメント */
+.comment {
+	position: relative;
+}
+.comment__button {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	display: block;
+	width: 120px; /* コメントにおけるボタンの幅 */
+	font-size: 14px;
+	margin: auto;
+}
